@@ -35,6 +35,6 @@ if getgenv().SendNotifications == true then
         Title = "Made By: Odin",
         Text = "Thank you for using the script",
         Icon = "rbxassetid://6238537240",
-        Duration = 5,
+        Duration = 10,
     })
 end
