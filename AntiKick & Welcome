@@ -38,3 +38,12 @@ if getgenv().SendNotifications == true then
         Duration = 15,
     })
 end
+
+if getgenv().SendNotifications == true then
+    game:GetService("StarterGui"):SetCore("SendNotification", {
+        Title = "Join Discord",
+        Text = "Feel free to join our Discord it has been copied to your clipboard",
+        Icon = "rbxassetid://6238537240",
+        Duration = 15,
+    })
+end
