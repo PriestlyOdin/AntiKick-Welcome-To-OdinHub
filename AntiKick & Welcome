@@ -18,7 +18,7 @@ OldNameCall = hookmetamethod(game, "__namecall", function(Self, ...)
         if getgenv().SendNotifications == true then
             game:GetService("StarterGui"):SetCore("SendNotification", {
                 Title = "Made By: Odin",
-                Text = "You almost got kicked! Successfully prevented.",
+                Text = "Mah boy, you almost got kicked but i gotchu! But calm it my friend.",
                 Icon = "rbxassetid://6238540373",
                 Duration = 3,
             })
